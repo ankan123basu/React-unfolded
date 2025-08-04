@@ -5,13 +5,22 @@ import "./App.css"
 
  import ProductTab from "./ProductTab.jsx";
 
+//  import MsgBox from "./MsgBox"
+
 // function Desc() { // create a new component
   // return <h3>I am the description</h3>;
 // }
 
 function App() {
  return (
+  <>
+  {/* <MsgBox userName="Ankan" textColor="yellow"/> */}
+  {/* <MsgBox userName="Ankit" textColor="blue"/> */}
+  {/* <MsgBox userName="LEARNING REACT" textColor="violet"/> */}
+
+  <h2>Blockbuster Deals | Shop now</h2>
   <ProductTab />
+  </>
  );
  
   
